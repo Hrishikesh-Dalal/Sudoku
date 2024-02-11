@@ -1,0 +1,208 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+hr{
+    width: 500px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    /* align-content: space-between; */
+    /* justify-content: space-between; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.error{
+    width: 150px;
+    height: 30px;
+    margin: 0% auto;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    background-color: rgb(255, 251, 0);
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.digits_to_guess{
+    width: 150px;
+    height: 30px;
+    margin: 0% auto;
+    text-align: center;
+    font-size: 20px;
+    color: khaki;
+    background-color: rgb(15, 4, 77);
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.correct_guess{
+    width: 150px;
+    height: 30px;
+    margin: 0% auto;
+    text-align: center;
+    font-size: 18px;
+    color: wheat;
+    background-color: rgb(3, 73, 14);
+    
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_board{
+    /* background-color: yellow; */
+    height: 450px;
+    width: 450px;
+    /* This sis sufficicent enough to get the sudoku on board */
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_num{
+    width: 48px;
+    height: 48px;
+    border: 1px grey solid;
+    /* border-width: 1px; */
+    /* for its text */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pre_filled{
+    background-color: #c23737ab;
+    /* color */
+}
+.empty{
+    background-color: #919aab;
+}
+.user_filled{
+    background-color: rgba(126, 231, 28, 0.726);
+}
+.below_board{
+    /* background-color: yellow; */
+    width: 450px;
+    height: 50px;
+    margin: 0% auto;
+    margin-top: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.below_num{
+    width: 44px;
+    height: 44px;
+    border: 1px grey solid;
+    margin: 2px;
+
+    /* for its text */
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.below_num_clicked{
+    width: 44px;
+    height: 44px;
+    border: 1px grey solid;
+    margin: 2px;
+
+    /* for its text */
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.below_num:hover{
+    background-color: darkgrey;
+    
+}
+.main_num:hover{
+    background-color: rgba(123, 150, 150, 0.295);
+    transform: scale(1.1);
+}
+.horizontal_line{
+    border-bottom: 1px solid black;
+    z-index: 100;
+}
+.vertical_line{
+    border-right: 1px solid black;
+    z-index: 100;
+}
+.time{
+    color: white;
+    /* background-color: yellow; */
+}
+.timer_btn{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.guess_btn{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.clued{
+    background-color: rgba(226, 211, 7, 0.808);
+}
+.below_time{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+.input_time{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.time{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
+.input_time button{
+    margin: 10px;
+    border: none;
+    border: 2px white solid;
+}
+.guess_main_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.guess_main_button button{
+    margin: 10px;
+    border: none;
+    border: 2px white solid;
+    background-color: rgb(218, 32, 193);
+
+}
+h3{
+    text-align: center;
+}
